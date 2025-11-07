@@ -92,8 +92,11 @@ const dataLoaded = ref(false)
 async function loadData() {
   dataLoaded.value = false
   try {
-    const res = await fetch(`/src/data/${lang.value}.json`)
-    const json = await res.json()
+    // Use dynamic import so JSON files are bundled by Vite. This avoids
+    // runtime 404s when the site is served from a subpath (GitHub Pages).
+    // Dynamic import returns a module whose default export contains the JSON.
+    const mod = await import(`./data/${lang.value}.json`)
+    const json = mod && (mod.default ?? mod)
     cv.value = json
     dataLoaded.value = true
   } catch (err) {
