@@ -10,12 +10,8 @@ permissions:
   id-token: write
 
 jobs:
-  build:
+  deploy:
     runs-on: ubuntu-latest
-    permissions:
-      contents: read
-      pages: write
-      id-token: write
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -31,16 +27,10 @@ jobs:
       - name: Build
         run: npm run build
 
-      - name: Upload artifact for GitHub Pages
-        uses: actions/upload-pages-artifact@v1
+      - name: Deploy to gh-pages branch
+        uses: peaceiris/actions-gh-pages@v3
         with:
-          path: ./dist
-
-  deploy:
-    needs: build
-    runs-on: ubuntu-latest
-    permissions:
-      pages: write
-    steps:
-      - name: Deploy to GitHub Pages
-        uses: actions/deploy-pages@v1
+          publish_dir: ./dist
+          publish_branch: gh-pages
+          # use the automatically provided GITHUB_TOKEN for a safe push
+          github_token: ${{ secrets.GITHUB_TOKEN }}
