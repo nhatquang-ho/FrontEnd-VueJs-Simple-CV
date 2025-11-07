@@ -28,13 +28,6 @@ npm run build
 # serve the dist folder with any static server, or deploy to GitHub Pages
 ```
 
-## Deploy to GitHub Pages
-You can deploy the `dist` folder to GitHub Pages by:
-1. Create a GitHub repo and push the project.
-2. Build: `npm run build`
-3. Follow GitHub Pages settings: choose `gh-pages` branch or use an action to deploy `dist/`.
-(Alternatively use `gh-pages` npm package — not included by default here.)
-
 ## Language files
 Two JSON files (`src/data/fr.json` and `src/data/en.json`) are provided. You can edit them directly to update CV content. Using two files is simple and effective for switching text. For larger multilingual needs consider a proper i18n library.
 
