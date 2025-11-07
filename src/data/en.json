@@ -1,0 +1,92 @@
+{
+  "profile": {
+    "name": "NHAT QUANG HO",
+    "title": "Full Stack Developer Java / ReactJS",
+    "summary": "Full Stack software engineer with 3+ years of experience designing and delivering performant web applications. Specialized in Java Spring Boot and ReactJS, passionate about optimization, agility and CI/CD."
+  },
+  "contact": {
+    "phone": "0602290816",
+    "email": "nhatquang.ho.96@gmail.com",
+    "location": "Houilles, France",
+    "linkedin": "https://www.linkedin.com/in/nhatquangho/",
+    "github": "https://github.com/nhatquang-ho"
+  },
+  "experiences": [
+        {
+      "title": "Software Engineer (Web)",
+      "company": "Vertech’ (Chalon-sur-Saône)",
+      "period": "Nov 2024 - Sep 2025",
+      "description": "At Vertech’, I contributed to the evolution and maintenance of industrial quality control software for glass bottle production. I developed full-stack features using Java Spring Boot and ReactJS, and integrated a semantic search engine powered by AI to enhance user experience. I implemented CI/CD pipelines with GitLab, containerized deployments with Docker, and automated testing with Playwright. I also applied DevSecOps principles using SonarQube for static code analysis. This mission strengthened my ability to deliver robust, secure, and scalable solutions in a high-demand production environment."
+    },
+    {
+      "title": "Software Engineer (Web & Mobile)",
+      "company": "Magellium (Paris)",
+      "period": "May 2022 - Nov 2024",
+      "description": "During my 2.5 years at Magellium, I worked as a full-stack engineer on strategic projects in the energy and public sectors, including EDF Renouvelables. I designed and developed secure web applications using Java Spring Boot and ReactJS, with a strong focus on performance, data synchronization, and cartographic visualization. I implemented REST APIs, JWT/Azure AD authentication, and automated document generation. I also contributed to mobile development for field data collection (ONF) and command center tools (Préfecture de Police), using Kotlin, C#, and ArcGIS SDKs. My work was embedded in Agile/SCRUM teams, with CI/CD pipelines, code quality tools, and collaborative documentation."
+    },
+    {
+      "title": "Web Developer Intern",
+      "company": "LIG (Grenoble)",
+      "period": "Apr 2021 - Oct 2021",
+      "description": "As part of the GenderedNews project, I contributed to analyzing gender representation in French media. My main role was to build data processing pipelines and interactive dashboards to effectively visualize the results. Developed data pipelines using Python and MongoDB, enhancing our data collection and analysis capabilities. Created web scraping scripts to extract content from various media outlets, including Le Monde, L’Équipe, Mediapart, and others. Built interactive dashboards with Metabase, transforming raw data into clear, insightful visualizations that supported the project’s findings. Worked closely with the team to ensure timely delivery of project milestones and smooth progress. Strengthened my skills in data collection, processing, and visualization, while also improving my teamwork and communication abilities."
+    }
+  ],
+  "education": [
+    {
+      "degree": "Engineer AI for Developers (Certified)",
+      "school": "DataCamp",
+      "period": "2025"
+    },
+    {
+      "degree": "Engineering Degree in Computer Science",
+      "school": "Polytech Grenoble, France",
+      "period": "2018 - 2021"
+    },
+    {
+      "degree": "Preparatory Class MP2I",
+      "school": "Polytech Grenoble, France",
+      "period": "2016 - 2018"
+    },
+    {
+      "degree": "Scientific Baccalaureate",
+      "school": "LFI Marguerite Duras, Vietnam",
+      "period": "2014 - 2016"
+    }
+  ],
+  "skills": [
+    "Java",
+    "Spring Boot",
+    "ReactJS",
+    "Angular",
+    "Kotlin",
+    "C#",
+    "ASP.NET Core",
+    "Python",
+    "SIG: ArcGIS, QGIS",
+    "JPA/Hibernate",
+    "SQL/NoSQL",
+    "Docker",
+    "Git",
+    "CI/CD"
+  ],
+  "languages": [
+    {
+      "name": "French",
+      "level": "Fluent"
+    },
+    {
+      "name": "English",
+      "level": "B2 - Linguaskill"
+    },
+    {
+      "name": "Vietnamese",
+      "level": "Native"
+    }
+  ],
+  "hobbies": [
+    "Running",
+    "Badminton",
+    "Singing",
+    "New technologies"
+  ]
+}

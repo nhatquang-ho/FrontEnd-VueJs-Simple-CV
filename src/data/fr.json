@@ -1,0 +1,92 @@
+{
+  "profile": {
+    "name": "HO NHAT QUANG",
+    "title": "Développeur Full Stack",
+    "summary": "Ingénieur informatique Full Stack avec plus de 3 ans d’expérience dans la conception et le déploiement d’applications web performantes. Spécialiste Java Spring Boot et ReactJS, passionné par l’optimisation, l’agilité et l’intégration continue."
+  },
+  "contact": {
+    "phone": "0602290816",
+    "email": "nhatquang.ho.96@gmail.com",
+    "location": "Houilles, France",
+    "linkedin": "https://www.linkedin.com/in/nhatquangho/",
+    "github": "https://github.com/nhatquang-ho"
+  },
+  "experiences": [
+        {
+      "title": "Ingénieur Logiciel (web)",
+      "company": "Vertech’ (Chalon-sur-Saône)",
+      "period": "Novembre 2024 - Septembre 2025",
+      "description": "Chez Vertech’, j’ai contribué à l’évolution et à la maintenance de logiciels de contrôle qualité pour la production industrielle de bouteilles en verre. J’ai développé des fonctionnalités full-stack en Java Spring Boot et ReactJS, et intégré un moteur de recherche sémantique basé sur l’IA afin d’améliorer l’expérience utilisateur. J’ai mis en place des pipelines CI/CD avec GitLab, des déploiements conteneurisés via Docker, ainsi que des tests automatisés avec Playwright. J’ai également appliqué les principes DevSecOps en utilisant SonarQube pour l’analyse statique du code. Cette mission a renforcé ma capacité à livrer des solutions robustes, sécurisées et évolutives dans un environnement de production exigeant."
+    },
+    {
+      "title": "Ingénieur d'étude et développement (web & mobile)",
+      "company": "Magellium (Paris)",
+      "period": "Mai 2022 - Novembre 2024",
+      "description": "Pendant mes 2,5 années chez Magellium, j’ai travaillé en tant qu’ingénieur full-stack sur des projets stratégiques dans les secteurs de l’énergie et du public, notamment pour EDF Renouvelables. J’ai conçu et développé des applications web sécurisées en Java Spring Boot et ReactJS, avec une attention particulière portée à la performance, à la synchronisation des données et à la visualisation cartographique. J’ai mis en œuvre des API REST, l’authentification via JWT/Azure AD, ainsi que la génération automatisée de documents. J’ai également contribué au développement mobile pour la collecte de données terrain (ONF) et les outils de commandement (Préfecture de Police), en utilisant Kotlin, C# et les SDK ArcGIS. Mon travail s’est inscrit dans des équipes Agile/SCRUM, avec des pipelines CI/CD, des outils de qualité de code et une documentation collaborative."
+    },
+    {
+      "title": "Stagiaire Développeur Web",
+      "company": "LIG (Grenoble)",
+      "period": "Avril 2021 - Octobre 2021",
+      "description": "Participation au projet GenderedNews a consisté à analyser la représentation des genres dans les médias français. Mon rôle principal était de créer des pipelines de traitement de données et des tableaux de bord interactifs pour visualiser les résultats de manière efficace. J'ai développé des pipelines de traitement de données en utilisant Python et MongoDB, ce qui a permis de renforcer nos capacités de collecte et d'analyse. J'ai notamment conçu des scripts de web scraping pour extraire le contenu de plusieurs médias, dont Le Monde, L'Équipe, Médiapart, etc. Pour présenter les données analysées, j'ai créé des tableaux de bord interactifs avec Metabase. Ces tableaux de bord ont transformé les données brutes en graphiques clairs et compréhensibles, facilitant la communication des conclusions du projet. J'ai travaillé en étroite collaboration avec l'équipe pour m'assurer que les livrables étaient remis dans les délais et que le projet avançait de manière fluide. Cette expérience m'a permis de développer mes compétences en collecte, traitement et visualisation de données, tout en renforçant mes aptitudes au travail d'équipe."
+    }
+  ],
+  "education": [
+    {
+      "degree": "Formation IA - Engineer AI for Developers (Certifié)",
+      "school": "DataCamp",
+      "period": "2025"
+    },
+    {
+      "degree": "Ingénieur Informatique",
+      "school": "Polytech Grenoble, France",
+      "period": "2018 - 2021"
+    },
+    {
+      "degree": "Classe Prépa MP2I",
+      "school": "Polytech Grenoble, France",
+      "period": "2016 - 2018"
+    },
+    {
+      "degree": "Bac Scientifique",
+      "school": "LFI Marguerite Duras, Vietnam",
+      "period": "2014 - 2016"
+    }
+  ],
+  "skills": [
+    "Java",
+    "Spring Boot",
+    "ReactJS",
+    "Angular",
+    "Kotlin",
+    "C#",
+    "ASP.NET Core",
+    "Python",
+    "SIG: ArcGIS, QGIS",
+    "JPA/Hibernate",
+    "SQL/NoSQL",
+    "Docker",
+    "Git",
+    "CI/CD"
+  ],
+  "languages": [
+    {
+      "name": "Français",
+      "level": "Courant"
+    },
+    {
+      "name": "Anglais",
+      "level": "B2 - Linguaskill"
+    },
+    {
+      "name": "Vietnamien",
+      "level": "Natif"
+    }
+  ],
+  "hobbies": [
+    "Course à pied",
+    "Badminton",
+    "Chant",
+    "Nouvelles technologies"
+  ]
+}
